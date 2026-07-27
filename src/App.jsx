@@ -1,5 +1,6 @@
 import React from 'react'
 import { EventProps } from './Components/EventProps'
+import CountButton from './Components/CountButton'
 
 const App = () => {
   function handleButtonClick() {
@@ -13,7 +14,7 @@ const App = () => {
       {/* <button onClick={handleButtonClick}
         className="">Click Me!</button> */}
 
-      <EventProps />
+      <CountButton />
     </div>
   )
 }
