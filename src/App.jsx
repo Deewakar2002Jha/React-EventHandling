@@ -1,22 +1,19 @@
-import React from 'react'
-import { EventProps } from './Components/EventProps'
-import CountButton from './Components/CountButton'
+import React, { useState } from "react";
+// import CountButton from "./components/CountButton";
+
 
 const App = () => {
-  function handleButtonClick() {
-    alert("thanks for clicking button")
+  const [count, setCount] = useState(0);
 
-
-  }
 
   return (
-    <div className=''>
-      {/* <button onClick={handleButtonClick}
-        className="">Click Me!</button> */}
+    <>
+      <h1>{count}</h1>
+      <button onClick={() => setCount(count + 1)}>Plus</button>
+      <button onClick={() => setCount(count - 1)}>Minus</button>
 
-      <CountButton />
-    </div>
-  )
-}
+    </>
+  );
+};
 
-export default App
+export default App;
