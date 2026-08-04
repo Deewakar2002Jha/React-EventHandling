@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import CountButtonPlusMinus from "./Components/useState/CountButtonPlusMinus";
-import ShowHidePassword from "./Components/useState/ShowHidePassword";
-// import CountButton from "./components/CountButton";
-import DarkMode from "./Components/useState/DarkMode"
-import { RegistrationFromMultipleState } from "./Components/useState/RegistrationFromMultipleState";
+// import UseEffectExample from "./Components/useEffect/UseEffectExample";
+// import UseEffectExcampleWithCss from "./Components/useEffect/UseEffectExcampleWithCss";
+// import UseEffectWithCount from "./Components/useEffect/UseEffectWithCount";
+// import UseEffectWithCountCss from "./Components/useEffect/UseEffectWithCountCss";
+import UseEffectWithCountwithDependency from "./Components/useEffect/UseEffectWithCountwithDependency";
 
 
 const App = () => {
@@ -12,13 +12,10 @@ const App = () => {
 
   return (
     <>
-      {/* <h1>{count}</h1>
-      <button onClick={() => setCount(count + 1)}>Plus</button>
-      <button onClick={() => setCount(count - 1)}>Minus</button> */}
-      {/* <CountButtonPlusMinus /> */}
-      {/* <ShowHidePassword /> */}
-      {/* <DarkMode /> */}
-      <RegistrationFromMultipleState />
+      {/* <UseEffectExample />
+      <UseEffectExcampleWithCss /> */}
+      {/* <UseEffectWithCountCss /> */}
+      {/* <UseEffectWithCountwithDependency /> */}
 
     </>
   );
